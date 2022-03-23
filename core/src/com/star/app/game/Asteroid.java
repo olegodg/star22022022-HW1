@@ -59,7 +59,7 @@ public class Asteroid implements Poolable {
     public void activate(float x, float y, float vx, float vy) {
         position.set(x, y);
         velositi.set(vx, vy);
-        activeA = true;
+        activeA = true;//
     }
 }
 
